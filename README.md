@@ -25,3 +25,10 @@ Hubsan 4x
 ## Den "store" drone
 
 ar.drone 2.0
+
+<img src="https://www.dronegeeks.com/img/5b6a/ar-drone-20-elite-editionsa1_jpg_egdetail.jpg" alt="ar.drone 2.0" height="250" width="333">
+
+* Den kan flyve med en "fjernbetjening"
+* Har kamera (2 stk.)
+* Har sensorer (bla. højdemåler, gyroskop og "kompas")
+* 
