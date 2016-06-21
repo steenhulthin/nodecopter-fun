@@ -16,7 +16,7 @@ Programmet
 
 Hubsan 4x
 
-<img src="http://quadcopterbase.com/wp-content/uploads/2014/08/IMG_2924.jpg" alt="hubsan x4" height="362" width="208">
+<img src="http://quadcopterbase.com/wp-content/uploads/2014/08/IMG_2924.jpg" alt="hubsan x4" height="208" width="362">
 
 * den kan flyve med en fjernbetjening
 * slut
