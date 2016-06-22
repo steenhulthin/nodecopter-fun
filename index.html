@@ -104,10 +104,66 @@
 <li>Rotorne kan godt gøre naller, så stik ikke fingrene inden for bøjlen.</li>
 </ul>
 
+<hr>
+
 <h1>
 <a id="hvordan-gør-man" class="anchor" href="#hvordan-g%C3%B8r-man" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Hvordan gør man?</h1>
 
+<h2>
+<a id="manuel-flyvning" class="anchor" href="#manuel-flyvning" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Manuel flyvning</h2>
+
 <p>Demonstration</p>
+
+<h2>
+<a id="programmering" class="anchor" href="#programmering" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Programmering</h2>
+
+<p>Den programmering vi laver er i javascript/node. </p>
+
+<p>Demo:</p>
+
+<pre><code>var arDrone = require('ar-drone');
+var client  = arDrone.createClient();
+
+client.takeoff();
+
+client
+.after(5000, function() {
+    this.clockwise(0.5);
+})
+.after(3000, function() {
+    this.stop();
+    this.land();
+});
+</code></pre>
+
+<p>Animate:</p>
+
+<pre><code>var arDrone = require('ar-drone');
+var client  = arDrone.createClient();
+
+client.takeoff();
+
+client
+.after(5000, function() {
+    this.animate('phiDance', 5000);
+})
+.after(3000, function() {
+    this.stop();
+    this.land();
+});
+</code></pre>
+
+<p>Alle kommandoer: <a href="https://github.com/felixge/node-ar-drone">https://github.com/felixge/node-ar-drone</a></p>
+
+<h1>
+<a id="fri-leg" class="anchor" href="#fri-leg" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Fri leg</h1>
+
+<p>Lav dit eget program eller fly lidt rundt med den lille drone.</p>
+
+<hr>
+
+<h1>
+<a id="batterierne-tomme-mad" class="anchor" href="#batterierne-tomme-mad" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Batterierne tomme? Mad?</h1>
         </article>
       </div>
     </div>
