@@ -52,4 +52,29 @@ ar.drone 2.0
 
 # Hvordan gør man?
 
+## Manuel flyvning 
+
 Demonstration
+
+## Programmering
+
+Den programmering vi laver er i javascript/node. 
+
+Demo:
+
+	var arDrone = require('ar-drone');
+	var client  = arDrone.createClient();
+	
+	client.takeoff();
+	
+	client
+	.after(5000, function() {
+		this.clockwise(0.5);
+	})
+	.after(3000, function() {
+		this.stop();
+		this.land();
+	});
+
+
+Alle kommandoer: <https://github.com/felixge/node-ar-drone>
