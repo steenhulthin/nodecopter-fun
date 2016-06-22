@@ -50,6 +50,8 @@ ar.drone 2.0
 * Ved manuel styring kombineret med panik: slip styringen. 
 * Rotorne kan godt gøre naller, så stik ikke fingrene inden for bøjlen.
 
+---
+
 # Hvordan gør man?
 
 ## Manuel flyvning 
@@ -76,5 +78,28 @@ Demo:
 		this.land();
 	});
 
+Animate:
+
+	var arDrone = require('ar-drone');
+	var client  = arDrone.createClient();
+	
+	client.takeoff();
+	
+	client
+	.after(5000, function() {
+		this.animate('phiDance', 5000);
+	})
+	.after(3000, function() {
+		this.stop();
+		this.land();
+	});
 
 Alle kommandoer: <https://github.com/felixge/node-ar-drone>
+
+# Fri leg
+
+Lav dit eget program eller fly lidt rundt med den lille drone.
+
+---
+
+# Batterierne tomme? Mad?
