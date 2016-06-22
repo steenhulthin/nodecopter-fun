@@ -29,6 +29,27 @@ ar.drone 2.0
 <img src="https://www.dronegeeks.com/img/5b6a/ar-drone-20-elite-editionsa1_jpg_egdetail.jpg" alt="ar.drone 2.0" height="250" width="333">
 
 * Den kan flyve med en "fjernbetjening"
-* Har kamera (2 stk.)
-* Har sensorer (bla. højdemåler, gyroskop og "kompas")
-* 
+* Har kamera
+* Har sensorer (bla. højdemåler, gyroskop og "kompas") (den kan stå stille i luften)
+* Åben og frit tilgængelig beskrivelse af styremåden. (den kan programmeres)
+
+---
+
+# Sikkerhed
+
+## Den lille drone
+
+* Speederen helt nedad, når dronen skal håndteres.
+* Efter styrt skal batteri og styrtbøjle sættes på plads.
+
+## Den "store" drone
+
+* Nødstop - demonstration
+* Startes altid fra gulvet.
+* Efter styrt skal styrtbøjle sættes på plads.
+* Ved manuel styring kombineret med panik: slip styringen. 
+* Rotorne kan godt gøre naller, så stik ikke fingrene inden for bøjlen.
+
+# Hvordan gør man?
+
+Demonstration
